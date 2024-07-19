@@ -1,0 +1,578 @@
+*{
+    box-sizing: border-box;
+
+}
+body{
+    margin: 0px;
+
+}
+
+.headertxt{
+    background-color: #f0f3f2 ;
+    width: 100%;
+    position: relative;
+ display: flex;
+ align-items: center;
+ overflow: hidden;
+
+}
+
+.headertxt .span_txt{
+    width: 42.5%;
+    padding: 5px;
+    margin-left: 5%;
+    white-space: nowrap;
+    font-family: "Honk", system-ui;
+ 
+}
+
+
+ .headertxt .span_txt{
+    position:relative;
+    animation: move 15s infinite ;
+  z-index: 1;
+    
+}
+
+@keyframes   move{
+    from{
+left: -20%;
+    }
+    to{
+        left:  100%;
+    }
+    
+}
+.headertxt .head_inline{
+     width: 42.5%;
+     margin-left: 60vw;
+}
+
+
+.logo{
+   float: left; 
+}
+.searchbar{
+    width: 500px;
+    height: 40px;
+    float: left;
+    margin-top:20px;
+    margin-left: 30px;
+    border-radius: 5px ;
+    padding: 20px;
+}
+
+.searchicon{
+   float: left;
+   margin-top: 30px;
+   margin-left: -50px;
+}
+.location{
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+   
+}
+
+.button{
+    padding: 10px;
+    width: 120px;
+    border-radius: 5px;
+}
+
+.loc_icon{
+    position: absolute;
+    margin: 10px 10px;
+}
+
+
+.ct-pr-wishlist .cart, .profile,.wishlist{
+    float: left;
+    left: 85px;
+    position: relative;
+  top: 30px;
+  margin-left: 40px;
+}
+nav{
+    clear: both;
+    display: table;
+}
+
+nav .navbar button{
+    margin-top: 20px;
+    margin-left: 70px;
+    padding: 10px;
+    width: 200px;
+    border-radius: 5px;
+    background-color: rgb(37, 204, 37);
+    color: white;
+    float: left;
+}
+
+nav .navbar .grid_but{
+position: relative;
+left: 90px;
+color:white;
+
+}
+
+.links{
+    float: left;
+    margin-top: 10px;
+    margin-left: 20px;
+    padding: 20px;
+}
+
+.links span{
+    padding: 20px;
+   
+}
+
+::selection{
+    background-color: aqua;
+    color: white;
+}
+
+.links span:hover{
+    background-color: rgb(171, 6, 121);
+    color: white;
+}
+
+/* P::first-letter{
+    color: rgb(233, 24, 24);
+} */
+/* h1::first-letter{
+    color: rgb(215, 56, 20);
+}
+span:first-child{
+    background-color: red;
+    color: white;
+}
+span:last-child{
+    background-color: rgb(21, 0, 255);
+    color: white;
+} */
+
+/* span:nth-child(odd){
+   background-color: red;
+   color: white;
+}
+h1::after{
+    content: "hello";
+    color: coral;
+} */
+
+nav{
+    border-bottom:0.2px solid lightgray;
+    width: 100%;
+    
+}
+
+
+.search img{
+    margin-left: 3vw;
+}
+.search img:hover{
+    transform: scale(1.1,1.1);
+    overflow: hidden;
+}
+
+
+.banner{
+    width: 90%;
+    margin: 30px auto;
+    height: 70vh;
+  display: block;
+  background-image: url("./images/slide-1.jpeg");
+ background-size: 100% 100%;
+ background-repeat: no-repeat;
+ border-radius: 5px;
+ position: relative;
+
+}
+
+.banner:hover{
+    transform: scale(1.1,1.1);
+    overflow: hidden;
+}
+
+.banner .para {
+    
+  position: absolute;
+  left: 10vw;
+  top: 23vh ;
+
+  margin: 0px;
+  background-color: orange;
+} 
+.banner .para p{
+margin: 0px;
+}
+.banner .heading12{
+       
+  position: absolute;
+  width: 30%;
+  left: 10vw;
+ font-size: 30px;
+ font-weight: bold;
+  top: 25vh ;
+  word-wrap: break-word;
+}
+
+.banner .ShopNow button{
+    position: absolute;
+  left: 10vw;
+  top: 50vh ;
+padding: 10px;
+width: 150px;
+background-color: black;
+color: white;
+border-radius: 5px;
+    }  
+
+    .banner .ShopNow button:hover{
+transform: scale(1.1,1.1);
+    }
+   
+.featuredproducts{
+    margin: auto;
+    width: 100%;
+    clear:both;
+    display: table;
+   margin: auto;
+    
+}
+.featuredproducts h1{
+  margin-left: 5%;
+}
+
+
+.feature_prod{
+    float: left;
+    border: 1px solid; 
+   margin-left: 5%;
+   margin-right: 1%;
+    width:10%;
+    height: 200px;
+    margin-bottom: 30px ;
+    border-radius:5px;
+}
+
+.feature_prod:hover{
+    transform:scaleY(1.1);
+    overflow: hidden;
+}
+
+.feature_prod img{
+    display: block;
+    margin: 0px auto;
+    width: 100px;
+    height: 120px;
+   
+}
+.feature_prod h6{
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+}
+
+.bakery{
+    width: 100%;
+   height: 200px;
+    display: table;
+   clear: both;
+}
+
+.bakery .bakery1{
+    display: block;
+    width: 42%;
+  height: 322px;
+    float: left;
+   margin-left: 5%;
+    background-image: url(./images/top-view-vegetables-fruits-bag_23-2148949707.avif);
+background-size: 100%;
+border: 1px solid;
+border-radius: 5px;
+  
+}
+.bakery .bakery1 h3{
+
+margin-left: 25vw;
+position: relative;
+top:10vh;
+
+}
+
+.bakery .bakery2 h3{
+    position: relative;
+    top:10vh;
+    margin-left: 20px;
+}
+
+.bakery .bakery2 p{
+    position: relative;
+    top:10vh;
+    margin-left: 20px;
+}
+
+
+.bakery .bakery1 p{
+    margin-left: 25vw;
+position: relative;
+top:10vh;
+}
+.bakery .bakery2 button{
+    position: relative;
+    top:10vh;
+    margin-left: 20px;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+.bakery .bakery1 button{
+    margin-left: 26vw;
+    position: relative;
+    top:10vh;
+    padding: 10px;
+    color: white;
+    background-color: black;
+}
+
+
+.bakery .bakery2 {
+    display: block;
+    width: 45%;
+    height: 322px;
+    float: left;
+    margin: 0px 35px;
+    background-image: url(./images/bakery-1.jpg);
+    background-size: cover;
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+
+.featuredproducts  .Popular_Products{
+    width: 14%;
+    height: 430px;
+    border:  1px solid;
+    float: left; 
+    margin-left: 5%;
+    border-radius: 5px;
+    margin-bottom: 30px;
+   overflow-y: hidden;
+    
+   
+}
+
+.featuredproducts  .Popular_Products img:hover{
+    transform: scale(1.05,1.05);
+    
+   
+}
+
+.featuredproducts  .Popular_Products{
+    padding: 20px;
+  
+
+}
+
+.featuredproducts  .Popular_Products p{
+    font-size: 15px;
+    font-weight: bold;
+    
+}
+
+.featuredproducts  .Popular_Products img{
+  
+    width: 150px;
+    height: 150px;
+ 
+}
+.Popular_Products i{
+    color:gold ;
+}
+.featuredproducts i{
+    color: gold;
+}
+.pop_txt{
+    border: 1px solid;
+    width: 30px ;
+    border-radius: 2px;
+    text-align: center;
+    background-color: red;
+    color: white;
+}
+.featuredproducts .Daily_Best_Sells .time_bestsells{
+    width: 100%;
+}
+.featuredproducts .Daily_Best_Sells .time_bestsells span{
+    border: 1px solid ;
+    width: 18.75% ;
+    float: left;
+    padding: 10px;
+    margin-left: 5%;
+
+   
+    
+    
+}
+
+
+ .strike{
+   position: relative;
+   top: 20px;
+}
+.nostrike{
+    position: relative;
+    top: 20px;
+}
+
+ .pop_but{
+    background: rgb(70, 229, 70);
+    width: 80px;
+    margin-left: 50%;  
+ display: inline;
+ border-radius: 5px;
+} 
+.featuredproducts  .Daily_Best_Sells{
+       width: 18.75%;
+      
+       border: 1px solid;
+       float: left;
+      text-align: center;
+       height:530px ;
+       margin-left: 5%;
+      border-radius: 5px ;
+   }
+
+
+
+   .featuredproducts  .Daily_Best_Sells1{
+ 
+ background-image: url('./images/backcof.jpg');
+ background-size: 100% 100%;
+ 
+ background-repeat: no-repeat;
+ width: 18.5%;
+ margin-left: 5%;
+ border: 1px solid;
+ float: left;
+text-align: center;
+ height:530px ;
+
+border-radius: 5px ;
+}
+
+
+   .icon_features .clock,.gift,.box,.arrow{
+    font-size: 30px;
+    color: green;
+    }
+   .icon_features{
+    width: 100%;
+   
+    display: table;
+   clear: both;
+
+
+   }
+  
+  
+   .icon_features .text{
+    width: 18.75%;
+    float: left;
+    display: block;
+    margin-left: 5%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+   }
+   .footer{
+    width: 100%;
+    background-color: aliceblue;
+    height: 800px;
+
+   }
+   .table{
+    width: 80%;
+   
+   
+   
+   }
+
+   .table  table thead  tr th{
+    padding-top: 100px;
+    width: 20%;
+   padding-left: 20px;
+ 
+   }
+
+   table  tbody tr td {
+    text-align: center;
+  padding: 10px ;
+   }
+
+
+   .strike{
+    text-decoration: line-through;
+    margin-right: 50px;
+   }
+  
+   .button12 {
+    width: 100%;
+   }
+ .button12 button{
+    width: 80%;
+    padding: 10px;
+    background-color: rgb(56, 232, 56);
+    margin: 30px auto;
+    border-radius: 5px;
+}
+   
+
+.foot-sec{
+    
+    border: 1px   solid rgb(224, 224, 234);
+    width: 90%;
+    margin: 20vh auto;
+    border-left: 0px;
+    border-right: 0px;
+    padding: 20px;
+ 
+}
+
+
+.foot-sec  span  img{
+    width: 30px;
+    margin-left: 20px;
+
+   
+}
+
+.text_foot{
+    
+    margin-left: 24vw;
+}
+
+ .foot-sec .foot-app-img img{
+    width:7vw;
+   height: 5vh;
+
+}
+
+
+.copywrights{
+    margin-top: 0px;
+    margin-left: 5vw;
+}
+
+.follow{
+    margin-left: 20vw;
+    margin-right: 10px;
+  
+}
+.copywrights i{
+ border: 1px solid ;
+ padding: 10px;
+}

@@ -1,0 +1,217 @@
+@media (min-width:561px)and ( max-width:768px ){
+
+
+        header{
+            width: 100%;
+            background-color: white;
+        }
+        .headertxt{
+            justify-content: center;
+        }
+        .headertxt span {
+             width: 100%;
+            padding: 1vh;
+        }
+        .headertxt .head_inline select {
+            display: none;
+    
+        }
+        .search{
+            width: 100%;
+            margin:auto;
+        }
+     
+        .headertxt .head_inline  {
+            margin-left: 0vw;
+    
+        }
+        .searchbar {
+            display: none;
+      
+        }
+        .ct-pr-wishlist .cart, .profile, .wishlist {
+            float: left;
+            left: 27vw;
+       
+        }
+       
+    
+        .searchicon{
+            display: none;
+        }
+        .search .logo {
+            width: 35%;
+            margin-top: 2vh;
+            border-radius: 10px;
+        
+    }
+    .featuredproducts{
+        margin: auto;
+        width: 98%;
+       
+    }
+    
+    .location {
+       display: none;
+    }
+    
+    
+    .navbar{
+        display: none;  
+    }
+    .links {
+    
+        margin-top: 10px;
+      
+        margin-left: -13px;
+        padding: 18px;
+    }
+    
+    .banner {
+       
+       width: 100%;
+        height: 80vh;
+        background-size:cover;  
+    }
+    .banner .ShopNow button {
+        left: 50vw; 
+        top: 60vh;
+    }
+    .banner .heading12 {
+        
+        width: 77%;
+       
+    }
+    .feature_prod {
+       
+        width: 28%;
+        margin-left: 5%;
+        margin-right: 0%;
+      
+    
+    }
+    .bakery{
+        margin: auto;
+        width: 98%;
+        height: 250px;
+    }
+    
+    .bakery .bakery1 {
+        
+        width: 93%;
+       margin-left: 5%;
+        background-size: 100% 100%;
+        background-repeat: no-repeat;
+        border-radius: 5px;
+       
+    }
+    .bakery .bakery2 {
+        width: 93%; 
+        margin-left: 5%;
+        margin-top: 20px;
+    }
+
+
+    .bakery .bakery1 h3 {
+        margin-left: 55vw;
+       
+    }
+    
+    .bakery .bakery1 p {
+        margin-left: 55vw;
+        
+    }
+    .bakery .bakery1 button {
+        margin-left: 55vw;
+    }
+    .featuredproducts .Popular_Products {
+        width: 43%;
+        height: 430px;
+        border: 1px solid;
+        float: left;
+       margin-left: 5%;
+        border-radius: 5px;
+    }
+    .featuredproducts .Daily_Best_Sells1 {
+        
+        width: 93%;
+        margin-left: 5%;
+        height: 530px;
+      
+    }
+    .featuredproducts .Daily_Best_Sells {
+        width: 93%;
+       margin-left: 5%;
+       margin-top: 20px;
+       height: 530px;
+      
+    }
+    .icon_features .text {
+        width: 93%;
+        margin-left: 5%;
+       
+    }
+    
+    .featuredproducts .Daily_Best_Sells .time_bestsells span{
+        padding: 11px;
+    }
+    table  tbody tr td {
+    
+      padding: 0px 0px;
+       } 
+        
+       .foot-sec {
+        width: 100%;   
+    }
+    .foot-sec span img {
+        margin-left: 5px;
+    }
+    .text_foot{
+        display: block;
+        margin-top: 30px;
+    }
+    .foot-sec .foot-app-img img {
+        width: 25vw;
+        height: 5vh;
+        margin-left: 10vw;
+        margin-top: 3vh;
+    }
+    .copy-txt{
+        display: block;
+        margin-bottom: 5vh;
+    }
+     .follow {
+        margin-left: 0vw;
+        margin-right: 0px;
+      
+    }
+    .copywrights {
+        margin-top: 0px;
+        margin-left: 0vw;
+        width: 100%;
+        background-color: aliceblue;
+        height: 20vh;
+    }
+    .copywrights i{
+    border-radius: 10px;
+    }
+    }
+
+
+    @media (min-width:600px)and ( max-width:768px ){
+        .featuredproducts .Daily_Best_Sells1 {
+            width: 43%;
+            margin-top: 20px;
+           
+        }
+        .featuredproducts .Daily_Best_Sells {
+            width: 43%;
+           
+        }
+        .icon_features .text {
+            width: 43%;
+           
+        }
+    
+
+    }
